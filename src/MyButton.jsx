@@ -23,7 +23,7 @@ export default function MyButton(){
         const newStyle = setCoordinates(clickTime.getTime());
         setStyle(newStyle[0]);
         const test = document.querySelector('#timediff');
-        test.innerHTML = newStyle[1]/1000;
+        test.textContent = newStyle[1]/1000;
         test.style.marginLeft = '1000px';
         // test.style.top = newStyle[0].top + 100;
         // test.style.left = newStyle[0].left;
